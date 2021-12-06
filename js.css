@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    border-radius: 1.6rem;
+}
+.box,.box1{
+    display: flex;
+}
+.left{
+    border: 2.5px solid black;
+    float: left;
+    width: 55%;
+background-color:blue;
+letter-spacing: 0.3rem;
+color:white;
+}
+.right{
+border: 2.5px solid black;
+float: right;
+width: 45%;
+background-color:white;
+letter-spacing: 0.3rem;
+color:blue;
+}
+h2{
+    margin-left:25px;
+}
+h3{
+    text-align: center;
+}
+p{
+    margin: 25px;
+    
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    letter-spacing: 0.1rem;
+}
+#ques1,#ques2,#ques3,#ques4,#ques5,#ques6,#ques7,#ques8,#ques9,#ques10,#ques11,#ques12,
+#ques13,#ques14,#ques15,#ques16,#ques17,#ques18,#ques19,#ques20,#ques21,#ques22,#ques23,#ques24{
+    font-size: 1.4rem;
+    color:blue;
+    text-align: center;
+    border: 3px solid black;
+    letter-spacing: 0.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0.5rem;
+    
+}  
+#para13,#para14,#para15,#para16,#para17,#para18,#para19,#para20,#para21,#para22,#para23,#para24{
+        color:blue;
+        font-size: 1.2rem;
+        letter-spacing: 0.1rem;
+    } 
+    .bg{
+        background-color:#8b9dc3;
+        text-align: justify;
+        padding-top:0.6rem;
+        padding-bottom: 0.6rem;
+    }
+    .bg1{
+        font-size: 1rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 1.8rem;
+        color:darkblue;
+        font-weight: 1.3rem;
+    }
+    
+    .code, #unicode{
+        font-size: 1.5rem;
+        margin: 0.6rem;
+        color: red;
+        
+    }
+    #unicode{
+        border: 0.17rem solid blue;
+        text-align: center;
+        background:white;
+        color:blue;
+        letter-spacing: 0.4rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 0.9rem;
+    }
+    #paracode{
+        color:blue;
+        font-size: 1rem;
+        text-align: center;
+        font-family: cursive;
+        background: white;
+        border: 0.15rem solid blue;
+    }
+    .about{
+        color: blue;
+        font-family: monospace;
+        margin: 1rem;
+        padding: 1rem;
+        text-align: justify;
+    }
+    span{
+        color: black;
+    }
+    .head{
+        color: darkblue;
+        letter-spacing: 0.4rem;
+    }
+    
+    .mcq{
+        margin-left: 5rem;
+        padding: 0.7rem;
+        color: darkblue;
+    }
+    .hr{
+        height: 0.2rem;
+        background: darkorchid;
+    }
+    #mcq1,#mcq2 ,#mcq3,#mcq4 ,#mcq5,#mcq6,#mcq7,#mcq8,#mcq9,#mcq10,#mcq11,#mcq12{
+        margin-left: 2rem;
+        text-align: center;
+        font-size: 1.6rem;
+        border-radius: 7px;
+        border: 3px solid blue;
+    }
+    
+    #a,#b,#c,#d,#e,#f,#g,#h,#i,#j,#k,#l{
+        font-size: 2rem;
+        color: darkblue;
+        font-weight: bolder;
+        margin-left: 3rem;
+    }
+    .border{
+        border: 2.5px solid blue ;
+        margin: 1.5rem;
+    }
+    @media(max-width:920px){
+        .box{
+            display:flex;
+            flex-direction:column;
+        }
+        .left{
+            width:100%;
+        }
+        .right{
+            width:100%;
+        }
+        #mcq1, #mcq2, #mcq3, #mcq4, #mcq5, #mcq6, #mcq7, #mcq8, #mcq9, #mcq10, #mcq11, #mcq12{
+            width: 80%;
+            font-size:1.25rem;
+        }
+        #a,#b,#c,#d,#e,#f,#g,#h,#i,#j,#k,#l{
+            font-size: 0.9rem;
+          
+        }
+        .mcq{
+            margin-left:0;
+        }
+    }
+    
+    
+    
+    
