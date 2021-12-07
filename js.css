@@ -172,8 +172,8 @@ p{
     @media(max-width:768px){
         #ques1,#ques2,#ques3,#ques4,#ques5,#ques6,#ques7,#ques8,#ques9,#ques10,#ques11,#ques12,
 #ques13,#ques14,#ques15,#ques16,#ques17,#ques18,#ques19,#ques20,#ques21,#ques22,#ques23,#ques24{
-    width: 65%;
-    font-size: 1rem;
+    width: 70%;
+    font-size: 1.4rem;
 }
 #a,#b,#c,#d,#e,#f,#g,#h,#i,#j,#l{
     margin: 10%;
