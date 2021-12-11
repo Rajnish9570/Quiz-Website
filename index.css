@@ -1,0 +1,33 @@
+body{
+    background: #f9f9f9;
+    color:blue;
+margin: 2rem;
+padding: 0;
+}
+.head1{
+    letter-spacing:0.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.ques{
+    font-size: 1.5rem;
+    letter-spacing:0.2rem;
+    color:maroon;
+}
+.option{
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+}
+hr{
+    width:20rem;
+    background: #428bca;
+    height: 0.2rem;
+}
+input{
+    border: 0.2rem solid blue;
+    font-size: 1.7rem;
+    color: blue;
+    text-align: center;
+width:20%;
+}
