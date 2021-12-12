@@ -32,6 +32,7 @@ input{
     color: blue;
     text-align: center;
     width: 12rem;
+    border-radius:10px;
 }
 h3{
     font-family: cursive;
