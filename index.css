@@ -37,3 +37,21 @@ h3{
     font-family: cursive;
     letter-spacing: 0.2rem;
 }
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+    input{
+        width: 70%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+    input{
+        width: 60%;
+    }
+}
+
