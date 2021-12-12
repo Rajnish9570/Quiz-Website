@@ -13,11 +13,13 @@ padding: 0;
 .ques{
     font-size: 1.5rem;
     letter-spacing:0.2rem;
-    color:maroon;
+    color:maroon; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .option{
     font-size: 1.3rem;
     letter-spacing: 0.2rem;
+    font-family: monospace;
 }
 hr{
     width:20rem;
@@ -30,4 +32,8 @@ input{
     color: blue;
     text-align: center;
 width:20%;
+}
+h3{
+    font-family: cursive;
+    letter-spacing: 0.2rem;
 }
