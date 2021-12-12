@@ -43,7 +43,12 @@ h3{
         font-size: 60%;
     }
     input{
-        width: 50%;
+        width: 40%;
+    }
+    h3{
+        color: #f9f9f9;
+        background-color: black;
+        font-family: monospace;
     }
 }
 
@@ -52,7 +57,12 @@ h3{
         font-size: 50%;
     }
     input{
-        width: 50%;
+        width: 40%;
+    }
+    h3{
+        color: #f9f9f9;
+        background-color: black;
+        font-family: monospace;
     }
 }
 
