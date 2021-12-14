@@ -630,12 +630,12 @@ function answer59() {
 }
 
 function answer60() {
-    const a= document.querySelector("#option45").value;
+    const a= document.querySelector("#option60").value;
     if(a=="D"){
-        document.querySelector("#para45").innerHTML="Correct answer; well done!"
+        document.querySelector("#para60").innerHTML="Correct answer; well done!"
     }
     else{
-        document.querySelector("#para45").innerHTML="Incorrect answer; try again"
+        document.querySelector("#para60").innerHTML="Incorrect answer; try again"
     }
 }
 
