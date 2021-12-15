@@ -899,6 +899,173 @@ function answer86() {
     }
 }
 
+function answer87() {
+    const a= document.querySelector("#option87").value;
+    if(a== "D"){
+        document.querySelector("#para87").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para87").innerHTML="Incorrect answer; try again"
+    }
+}
+
+function answer88() {
+    const a= document.querySelector("#option88").value;
+    if(a== "JM"){
+        document.querySelector("#para88").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para88").innerHTML="Incorrect answer; try again"
+    }
+}
+
+function answer89() {
+    const a= document.querySelector("#option89").value;
+    if(a== "KO"){
+        document.querySelector("#para89").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para89").innerHTML="Incorrect answer; try again"
+    }
+}
+
+function answer90() {
+    const a= document.querySelector("#option90").value;
+    if(a== "TPR"){
+        document.querySelector("#para90").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para90").innerHTML="Incorrect answer; try again"
+    }
+}
+
+function answer91() {
+    const a= document.querySelector("#option91").value;
+    if(a== "LMO"){
+        document.querySelector("#para91").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para91").innerHTML="Incorrect answer; try again"
+    }
+}
+
+function answer92() {
+    const a= document.querySelector("#option92").value;
+    if(a== "ABCD "){
+        document.querySelector("#para92").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para92").innerHTML="Incorrect answer; try again"
+    }
+}
+
+function answer93() {
+    const a= document.querySelector("#option93").value;
+    if(a== "LCUOD"){
+        document.querySelector("#para93").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para93").innerHTML="Incorrect answer; try again"
+    }
+}
+
+function answer94() {
+    const a= document.querySelector("#option94").value;
+    if(a== "USTO"){
+        document.querySelector("#para94").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para94").innerHTML="Incorrect answer; try again"
+    }
+}
+
+function answer95() {
+    const a= document.querySelector("#option95").value;
+    if(a== "PUT"){
+        document.querySelector("#para95").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para95").innerHTML="Incorrect answer; try again"
+    }
+}
+
+function answer96() {
+    const a= document.querySelector("#option96").value;
+    if(a== " HEK"){
+        document.querySelector("#para96").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para96").innerHTML="Incorrect answer; try again"
+    }
+}
+
+function answer97() {
+    const a= document.querySelector("#option97").value;
+    if(a== "NPR"){
+        document.querySelector("#para97").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para97").innerHTML="Incorrect answer; try again"
+    }
+}
+
+function answer98() {
+    const a= document.querySelector("#option98").value;
+    if(a== "HNK"){
+        document.querySelector("#para98").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para98").innerHTML="Incorrect answer; try again"
+    }
+}
+
+function answer99() {
+    const a= document.querySelector("#option99").value;
+    if(a== "OUT"){
+        document.querySelector("#para99").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para99").innerHTML="Incorrect answer; try again"
+    }
+}
+
+
+function answer100() {
+    const a= document.querySelector("#option100").value;
+    if(a== "HR"){
+        document.querySelector("#para100").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para100").innerHTML="Incorrect answer; try again"
+    }
+}
+
+
+function answer101() {
+    const a= document.querySelector("#option101").value;
+    if(a== "MO"){
+        document.querySelector("#para101").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para101").innerHTML="Incorrect answer; try again"
+    }
+}
+
+
+function answer102() {
+    const a= document.querySelector("#option102").value;
+    if(a== "JKL"){
+        document.querySelector("#para102").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para102").innerHTML="Incorrect answer; try again"
+    }
+}
+
+
+
+
+
 
 
 
