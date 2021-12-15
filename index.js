@@ -799,6 +799,110 @@ function answer76() {
     }
 }
 
+function answer77() {
+    const a= document.querySelector("#option77").value;
+    if(a=="B"){
+        document.querySelector("#para77").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para77").innerHTML="Incorrect answer; try again"
+    }
+}  
+
+function answer78() {
+    const a= document.querySelector("#option78").value;
+    if(a=="D"){
+        document.querySelector("#para78").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para78").innerHTML="Incorrect answer; try again"
+    }
+}
+
+function answer79() {
+    const a= document.querySelector("#option79").value;
+    if(a=="A"){
+        document.querySelector("#para79").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para79").innerHTML="Incorrect answer; try again"
+    }
+}
+
+function answer80() {
+    const a= document.querySelector("#option80").value;
+    if(a=="B"){
+        document.querySelector("#para80").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para80").innerHTML="Incorrect answer; try again"
+    }
+}  
+
+function answer81() {
+    const a= document.querySelector("#option81").value;
+    if(a=="D"){
+        document.querySelector("#para81").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para81").innerHTML="Incorrect answer; try again"
+    }
+}
+
+function answer82() {
+    const a= document.querySelector("#option82").value;
+    if(a=="C"){
+        document.querySelector("#para82").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para82").innerHTML="Incorrect answer; try again"
+    }
+}
+
+function answer83() {
+    const a= document.querySelector("#option83").value;
+    if(a=="B"){
+        document.querySelector("#para83").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para83").innerHTML="Incorrect answer; try again"
+    }
+}
+
+function answer84() {
+    const a= document.querySelector("#option84").value;
+    if(a=="C"){
+        document.querySelector("#para84").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para84").innerHTML="Incorrect answer; try again"
+    }
+}
+
+function answer85() {
+    const a= document.querySelector("#option85").value;
+    if(a=="B"){
+        document.querySelector("#para85").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para85").innerHTML="Incorrect answer; try again"
+    }
+}
+
+function answer86() {
+    const a= document.querySelector("#option86").value;
+    if(a== "A"){
+        document.querySelector("#para86").innerHTML="Correct answer; well done!"
+    }
+    else{
+        document.querySelector("#para86").innerHTML="Incorrect answer; try again"
+    }
+}
+
+
+
+
+
 
 
 
