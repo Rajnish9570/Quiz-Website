@@ -41,35 +41,7 @@ h3{
     font-family: cursive;
     letter-spacing: 0.2rem;
 }
-@media(max-width:998px){
-    html{
-        font-size: 60%;
-    }
-    input{
-        width: 40%;
-    }
-    h3{
-        color: #f9f9f9;
-        background-color: darkblue;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: center;
-    }
-}
 
-@media(max-width:768px){
-    html{
-        font-size: 50%;
-    }
-    input{
-        width: 40%;
-    }
-    h3{
-        color: #f9f9f9;
-        background-color: darkblue;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: center;
-    }
-}
 
 .hint1{
     background-color: blueviolet;
@@ -183,4 +155,41 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     padding: 5px;
 
 }
+h1{
+    text-align: center;
+    font-size: 2.5rem;
 
+    letter-spacing: 0.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+@media(max-width:998px){
+    html{
+        font-size: 60%;
+    }
+    input{
+        width: 40%;
+    }
+    h3{
+        color: #f9f9f9;
+        background-color: darkblue;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 50%;
+    }
+    input{
+        width: 40%;
+    }
+    h3{
+        color: #f9f9f9;
+        background-color: darkblue;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+}
