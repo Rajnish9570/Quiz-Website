@@ -162,7 +162,9 @@ h1{
     letter-spacing: 0.5rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+span{
+    color: yellow;
+}
 
 @media(max-width:998px){
     html{
