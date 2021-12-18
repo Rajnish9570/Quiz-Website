@@ -70,6 +70,7 @@ a{
     color: white;
     text-decoration: none;
     float: left;
+    margin: 5px;
 }
 .cse{
     float: right;
