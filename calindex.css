@@ -47,11 +47,12 @@ hr{
 }
 
 a{
-    float: right;
+
     background-color: blue;
     border: 2px solid black;
     color: white;
     text-decoration: none;
+    margin: 10px;
 }
 .cse{
     text-align: center;

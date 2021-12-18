@@ -1,0 +1,31 @@
+body{
+    
+    background-color: #222f3e;
+}
+button{
+margin: 25px;
+font-size: 1rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: blue;
+border: 2.5px solid black;
+border-radius: 35px;
+height: 4rem;
+width: 4rem;
+text-decoration: none;
+}
+a{
+    text-decoration: none;
+
+}
+hr{
+    height: 0.3rem;
+    background: darkblue;
+}
+p{
+    margin: 20px;
+    text-align: justify;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+font-family: cursive;
+color: darkblue;
+}
