@@ -42,115 +42,11 @@ h3{
     letter-spacing: 0.2rem;
 }
 
-
-.hint1{
-    background-color: blueviolet;
-    color: white;
-    font-size: 1.5rem;
-border: 3px solid maroon;
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.hint2{
-
-    font-size: 1.5rem;
-    border: 3px solid goldenrod;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.hint3{
-    background-color: blueviolet;
-    color: white;
-    font-size: 1.5rem;
-border: 3px solid maroon;
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.hint4{
-    
-    font-size: 1.5rem;
-border: 3px solid goldenrod;
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.hint5{
-    background-color: blueviolet;
-    color: white;
-    font-size: 1.5rem;
-    border: 3px solid maroon;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.hint6{
-
-    font-size: 1.5rem;
-    border: 3px solid goldenrod;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.hint7{
-    background-color: blueviolet;
-    color: white;
-    font-size: 1.5rem;
-    border: 3px solid maroon;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.hint8{
-    font-size: 1.5rem;
-    border: 3px solid goldenrod;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-}
-
-.hint9{
-    background-color: blueviolet;
-    color: white;
-    font-size: 1.5rem;
-    border: 3px solid maroon;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.hint10{
-    font-size: 1.5rem;
-    border: 3px solid goldenrod; 
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-}
-.hint11{
-    background-color: blueviolet;
-    color: white;
-    font-size: 1.5rem;
-    border: 3px solid maroon;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.hint12{
-    
-    font-size: 1.5rem;
-    border: 3px solid goldenrod;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.hint13{
-    background-color: blueviolet;
-    color: white;
-    font-size: 1.5rem;
-    border: 3px solid maroon; 
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.hint14{
-    font-size: 1.5rem;
-    border: 3px solid goldenrod; 
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.hint15{
-    background-color: blueviolet;
-    color: white;
-    font-size: 1.5rem;
-    border: 3px solid maroon;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.hint16{
-    font-size: 1.5rem;
-    border: 3px solid goldenrod;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
 .greet{
-    color:maroon;
-    font-family: sans-serif;
-    font-size: 2.5rem;
+    color:blue;
+    font-family: cursive;
+    font-size: 2rem;
     border: 3.5px dashed blue;
-    background-color:goldenrod;
     text-align:justify;
     padding: 5px;
 
@@ -167,11 +63,12 @@ span{
 }
 
 a{
-    margin-top: 4px;
+    text-align: center;
     font-size: 1.5rem;
-    background-color: darkorange;
+    background-color: blue;
     border: 2px solid black;
     color: white;
+    text-decoration: none;
 }
 
 @media(max-width:998px){

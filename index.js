@@ -905,7 +905,7 @@ function answer87() {
         document.querySelector("#para87").innerHTML="Correct answer; well done!"
     }
     else{
-        document.querySelector("#para87").innerHTML="Incorrect answer; try again"
+        document.querySelector("#para87").innerHTML= "Right answer is {D}"
     }
 }
 
@@ -915,7 +915,7 @@ function answer88() {
         document.querySelector("#para88").innerHTML="Correct answer; well done!"
     }
     else{
-        document.querySelector("#para88").innerHTML="Incorrect answer; try again"
+        document.querySelector("#para88").innerHTML="Right answer is {JM}"
     }
 }
 
@@ -925,7 +925,7 @@ function answer89() {
         document.querySelector("#para89").innerHTML="Correct answer; well done!"
     }
     else{
-        document.querySelector("#para89").innerHTML="Incorrect answer; try again"
+        document.querySelector("#para89").innerHTML="Right answer is {KO}"
     }
 }
 
@@ -935,7 +935,7 @@ function answer90() {
         document.querySelector("#para90").innerHTML="Correct answer; well done!"
     }
     else{
-        document.querySelector("#para90").innerHTML="Incorrect answer; try again"
+        document.querySelector("#para90").innerHTML="Right answer is {TPR}"
     }
 }
 
@@ -945,7 +945,7 @@ function answer91() {
         document.querySelector("#para91").innerHTML="Correct answer; well done!"
     }
     else{
-        document.querySelector("#para91").innerHTML="Incorrect answer; try again"
+        document.querySelector("#para91").innerHTML="Right answer is {LMO}"
     }
 }
 
@@ -955,7 +955,7 @@ function answer92() {
         document.querySelector("#para92").innerHTML="Correct answer; well done!"
     }
     else{
-        document.querySelector("#para92").innerHTML="Incorrect answer; try again"
+        document.querySelector("#para92").innerHTML="Right answer is {ABCD}"
     }
 }
 
@@ -965,7 +965,7 @@ function answer93() {
         document.querySelector("#para93").innerHTML="Correct answer; well done!"
     }
     else{
-        document.querySelector("#para93").innerHTML="Incorrect answer; try again"
+        document.querySelector("#para93").innerHTML="Right answer is {LCUOD}"
     }
 }
 
@@ -975,7 +975,7 @@ function answer94() {
         document.querySelector("#para94").innerHTML="Correct answer; well done!"
     }
     else{
-        document.querySelector("#para94").innerHTML="Incorrect answer; try again"
+        document.querySelector("#para94").innerHTML="Right answer is {USTO}"
     }
 }
 
@@ -985,7 +985,7 @@ function answer95() {
         document.querySelector("#para95").innerHTML="Correct answer; well done!"
     }
     else{
-        document.querySelector("#para95").innerHTML="Incorrect answer; try again"
+        document.querySelector("#para95").innerHTML="Right answer is {PUT}"
     }
 }
 
@@ -995,7 +995,7 @@ function answer96() {
         document.querySelector("#para96").innerHTML="Correct answer; well done!"
     }
     else{
-        document.querySelector("#para96").innerHTML="Incorrect answer; try again"
+        document.querySelector("#para96").innerHTML="Right answer is {HEK}"
     }
 }
 
@@ -1005,7 +1005,7 @@ function answer97() {
         document.querySelector("#para97").innerHTML="Correct answer; well done!"
     }
     else{
-        document.querySelector("#para97").innerHTML="Incorrect answer; try again"
+        document.querySelector("#para97").innerHTML="Right answer is {NPR}"
     }
 }
 
@@ -1015,7 +1015,7 @@ function answer98() {
         document.querySelector("#para98").innerHTML="Correct answer; well done!"
     }
     else{
-        document.querySelector("#para98").innerHTML="Incorrect answer; try again"
+        document.querySelector("#para98").innerHTML="Right answer is {HNK}"
     }
 }
 
@@ -1025,7 +1025,7 @@ function answer99() {
         document.querySelector("#para99").innerHTML="Correct answer; well done!"
     }
     else{
-        document.querySelector("#para99").innerHTML="Incorrect answer; try again"
+        document.querySelector("#para99").innerHTML="Right answer is {OUT}"
     }
 }
 
@@ -1036,7 +1036,7 @@ function answer100() {
         document.querySelector("#para100").innerHTML="Correct answer; well done!"
     }
     else{
-        document.querySelector("#para100").innerHTML="Incorrect answer; try again"
+        document.querySelector("#para100").innerHTML="Right answer is {HR}"
     }
 }
 
@@ -1047,7 +1047,7 @@ function answer101() {
         document.querySelector("#para101").innerHTML="Correct answer; well done!"
     }
     else{
-        document.querySelector("#para101").innerHTML="Incorrect answer; try again"
+        document.querySelector("#para101").innerHTML="Right answer is {MO}"
     }
 }
 
@@ -1058,7 +1058,7 @@ function answer102() {
         document.querySelector("#para102").innerHTML="Correct answer; well done!"
     }
     else{
-        document.querySelector("#para102").innerHTML="Incorrect answer; try again"
+        document.querySelector("#para102").innerHTML="Right answer is {JKL}"
     }
 }
 
