@@ -29,3 +29,10 @@ p{
 font-family: cursive;
 color: darkblue;
 }
+
+h1{
+    font-size: 1.5rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
