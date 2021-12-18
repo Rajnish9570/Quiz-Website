@@ -167,9 +167,11 @@ span{
 }
 
 a{
-    margin: 2px;
-    font-size: 1rem;
+    margin: 5px;
+    font-size: 2rem;
     background-color: darkorange;
+    border: 2px solid black;
+    color: white;
 }
 
 @media(max-width:998px){

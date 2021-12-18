@@ -37,4 +37,6 @@ hr{
 a{
     float: right;
     background-color: darkorange;
+    border: 2px solid black;
+    color: white;
 }
