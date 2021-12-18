@@ -69,6 +69,10 @@ a{
     border: 2px solid black;
     color: white;
     text-decoration: none;
+    float: left;
+}
+.cse{
+    float: right;
 }
 
 @media(max-width:998px){
