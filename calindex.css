@@ -4,6 +4,10 @@
     font-family: sans-serif;
     color:darkblue;
 }
+body{
+    background:#ff0000;
+
+}
 
 .btn{
 font-size: 2.5rem;
@@ -52,5 +56,6 @@ a{
 .cse{
     text-align: center;
     font-size: 1rem;
+    color:  #ffffff;
 }
 
