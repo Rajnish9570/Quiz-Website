@@ -2,15 +2,17 @@
     text-align: center;
     letter-spacing: 0.1rem;
     font-family: sans-serif;
-    color:darkmagenta;
+    color:darkblue;
 }
+
 .btn{
 font-size: 2.5rem;
 height: 3rem;
 width: 3rem;
 margin: 0.50rem;
-background: blueviolet;
+background: blue;
 color: white;
+border: 2.5px solid black;
 }
 .text{
     font-size: 1rem;
@@ -24,16 +26,17 @@ border:0.2rem solid blue ;
 .border{
     border: 0.4rem solid blue;
     margin: 4rem;
-    background-color: violet;
+    background-color: #f1cbff;
 }
 hr{
     height: 0.3rem;
-    background-color: blueviolet;
+    background-color: blue;
 }
 #result{
     font-size: 1.5rem;
     border: 2px solid black;
-    background: chartreuse;
+    background: blue;
+    color: white;
 
 }
 
