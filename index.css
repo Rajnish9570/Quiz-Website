@@ -9,8 +9,8 @@ padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.3rem;
     text-align: center;
-    background-color: orangered;
-    color: #ffffff;
+border: 2.5px solid blue;
+    color: orangered;
 }
 .ques{
     font-size: 1.5rem;
@@ -34,8 +34,8 @@ input{
     font-size: 1.7rem;
     color: blue;
     text-align: center;
-    width: 12rem;
-    border-radius:10px;
+    width: 10rem;
+    border-radius:6px;
 }
 h3{
     font-family: cursive;
