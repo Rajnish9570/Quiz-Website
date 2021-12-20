@@ -60,10 +60,12 @@ border: 3px solid black;
         width: 40%;
     }
     h3{
-        color: #00ff00;
-        background-color: #0000ff;
+        color:red;
+        background-color: #d896ff;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-align: center;
+        border: 3px solid maroon;
+        border-radius: 4px;
     }
 }
 
@@ -75,9 +77,11 @@ border: 3px solid black;
         width: 40%;
     }
     h3{
-        color: #00ff00;
-        background-color: #0000ff;
+        color: red;
+        background-color: #d896ff;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-align: center;
+        border: 3px solid maroon;
+        border-radius:4px;
     }
 }
