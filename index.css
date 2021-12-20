@@ -11,6 +11,7 @@ padding: 0;
     text-align: center;
 border: 2.5px solid blue;
     color: orangered;
+    border-radius: 5px;
 }
 .ques{
     font-size: 1.5rem;
@@ -50,6 +51,7 @@ a{
 letter-spacing: 0.1rem;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 border: 3px solid black;
+border-radius: 4px;
 }
 
 @media(max-width:998px){

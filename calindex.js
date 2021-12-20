@@ -8,7 +8,7 @@ function sub(){
     const a= parseInt(document.getElementById("num1").value);
     const b= parseInt(document.getElementById("num2").value);
     const c= a-b;
-    document.getElementById("result").innerHTML= '{-} ='+ ' ' + c;
+    document.getElementById("result").innerHTML= '{&#8722;} ='+ ' ' + c;
 }
 
 function multiply(){
