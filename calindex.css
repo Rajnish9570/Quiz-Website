@@ -5,7 +5,7 @@
     color:darkblue;
 }
 body{
-    background:#d9534f;
+    background:#428bca;
 
 }
 
@@ -33,6 +33,7 @@ border:0.2rem solid blue ;
     margin: 4rem;
     background-color: #f1cbff;
     border-radius: 15px;
+    margin-top: 2.5rem;
 }
 hr{
     height: 0.3rem;
@@ -45,15 +46,19 @@ hr{
     color: white;
 
 }
-
 a{
-
-    background-color: blue;
-    border: 2px solid black;
-    color: white;
     text-decoration: none;
-    margin: 10px;
+    background-color: white;
+    color: blue;
+    height: 5rem ;
+    font-size:1.2rem;
+    font-weight: 70rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.2rem;
+    border: 3px solid black;
+    border-radius: 10px;
 }
+
 .cse{
     text-align: center;
     font-size: 1rem;

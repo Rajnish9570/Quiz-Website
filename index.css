@@ -41,22 +41,15 @@ h3{
     font-family: cursive;
     letter-spacing: 0.2rem;
 }
-span{
-    color: yellow;
-}
-
 a{
-    text-align: center;
-    font-size: 1.5rem;
-    background-color: blue;
-    border: 2px solid black;
-    color: white;
+    background: #7289da;
+    font-size: 2rem;
+    font-weight: bold;
     text-decoration: none;
-    float: left;
-    margin: 5px;
-}
-.cse{
-    float: right;
+    color: #ffffff;
+letter-spacing: 0.1rem;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border: 3px solid black;
 }
 
 @media(max-width:998px){
