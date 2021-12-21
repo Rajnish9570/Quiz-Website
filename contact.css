@@ -34,8 +34,11 @@ h3{
     font-weight: lighter;
     color: blue;
     letter-spacing: 1px;
-    margin-top: 10px;
+    margin-top: 120px;
     
+}
+.whatsapp{
+    background: blue;
 }
 hr{
     height: 2px;
@@ -58,7 +61,7 @@ position: fixed;
 	text-align:center;
         font-size:30px;
 	box-shadow: 2px 2px 3px #999;
-        margin-top: 10px;
+        margin-top: 20px;
 }
 
 .whatsapp-icon {
