@@ -15,7 +15,7 @@ h1{
 }
 p{
     margin:30px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 1px;
     margin-left:10%;
@@ -29,10 +29,13 @@ background: #5bc0de;
 span{
     color: blueviolet;
 }
-.wh{
-    background: white;
+h3{
     text-align: center;
-    width: 50%;
+    font-size:1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: blue;
+    letter-spacing: 1px;
 }
 
 
@@ -43,7 +46,7 @@ span{
 	width:60px;
 	height:60px;
 	bottom:40px;
-	right:40px;
+	right:50%;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
@@ -52,6 +55,7 @@ span{
 	box-shadow: 2px 2px 3px #999;
         z-index:100;
 }
+
 
 .whatsapp-icon {
 	margin-top:16px;
