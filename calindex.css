@@ -1,70 +1,99 @@
 *{
-    text-align: center;
-    letter-spacing: 0.1rem;
-    font-family: sans-serif;
-    color:darkblue;
-}
-body{
-    background:#428bca;
-
-}
-
-.btn{
-font-size: 2.5rem;
-height: 3.5rem;
-width: 3.5rem;
-margin: 0.50rem;
-background: blue;
-color: white;
-border: 2.5px solid black;
-border-radius: 30px;
-}
-.text{
-    font-size: 1rem;
-}
-#num1,#num2,#num3{
-font-size: 1rem;
-width: 10rem;
-color: blue;
-border:0.2rem solid blue ;
-box-shadow: 3px 4px 10px 0px blueviolet;
-}
-.border{
-    border: 0.4rem solid blue;
-    margin: 4rem;
-    background-color: #f1cbff;
-    border-radius: 15px;
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
-    box-shadow: 4px 6px 15px  4px white;
-}
-hr{
-    height: 0.3rem;
-    background-color: blue;
-}
-#result{
-    font-size: 1.5rem;
-    border: 2px solid black;
-    background: blue;
-    color: white;
-
-}
-a{
+    padding: 0;
+    margin: 0;
     text-decoration: none;
-    background-color: white;
-    color: blue;
-    height: 5rem ;
-    font-size:1.2rem;
-    font-weight: 70rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 0.2rem;
-    border: 3px solid black;
-    border-radius: 10px;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    background: blue;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
 }
 
-.cse{
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+a.active,a:hover{
+    background: darkblue;
+    transition: -5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor:pointer ;
+display: none;
+}
+#check{
+    display: none;
+}
+
+@media (max-width: 952px){
+    label.logo{
+        font-size: 16px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px){
+.checkbtn{
+    display:block;
+}
+ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
     text-align: center;
-    font-size: 1rem;
-    color:  #ffffff;
+    transition: all .5s;
 }
-
+nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+}
+nav ul li a{
+    font-size: 20px;
+}
+a:hover,a.active{
+    background: none;
+    color: #0082e6;
+}
+#check:checked ~ ul{
+    left: 0;
+}
+}
+section{
+    background: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1597655601841-214a4cfe8b2c%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxzZWFyY2h8MXx8bW91bnRhaW4lMjBzY2VuZXJ5fGVufDB8fDB8fA%253D%253D%26w%3D1000%26q%3D80&imgrefurl=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmountain-scenery&tbnid=lQWOIPjSFUr3vM&vet=12ahUKEwiJ3YeTson1AhUQzaACHbBxAewQMygaegUIARCYAg..i&docid=7UbjRd-yJlv26M&w=1000&h=843&q=scenery&ved=2ahUKEwiJ3YeTson1AhUQzaACHbBxAewQMygaegUIARCYAg) no-repeat;
+background-size: cover;
+height: calc(100vh - 80px);
+}

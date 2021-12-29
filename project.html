@@ -5,33 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
-    <button>&#10064;</button>
-<hr>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>   
+        </label>
+    
+<label class="logo">Quiz.Com</label>
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+<li><a class="active" href="project.html">ABOUT</a></li>
+<li><a href="calindex.html">SERVICES</a></li>
+</ul>
 
-    <h1>ABOUT &#9997;</h1>
-    <p>
-    I am Rajnish kumar,B.tech(CSE) work as frontend designer at intermediate level. This is my first deployed project created by me.
-     I use only three technologies for these project Html,Css,Javascript.This is project of three page first is quiz another one is 
-     calculator ,there is also page of about by animated backgrounds Which change by clicking one button. 
-
-I am very Thankful to you for visit to my page. I hope, you gain some knowledge from here.   
-This is a  quiz website where  collection of mcq types  question are avilable at one platform.
-</p>
-<hr>
-<button>
-        <a id="back" href="calindex.html">&#10155;</a>
-</button>
-
-    <script type="text/javascript">
-        var color= ["#222f3e","#3b5998","#ffad60","#ffbf00","#a67c00","#428bca","#000000","#d62d20","#5f27cd","#00ff00","#ffdc73"];
-        var i = 0;
-        document.querySelector("button").addEventListener("click",function(){
-            i = i < color.length ? ++i : 0;
-            document.querySelector("body").style.background = color[i]
-        })
-    </script>
+    </nav>
+    <section></section>
 </body>
 </html>

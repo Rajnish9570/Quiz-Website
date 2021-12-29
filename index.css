@@ -1,91 +1,99 @@
-body{
-    background: #f9f9f9;
-    color:blue;
-margin: 2rem;
-padding: 0;
-}
-.head1{
-    letter-spacing:0.2rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.3rem;
-    text-align: center;
-border: 2.5px solid blue;
-    color: orangered;
-    border-radius: 5px;
-}
-.ques{
-    font-size: 1.5rem;
-    letter-spacing:0.2rem;
-    color:maroon; 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.option{
-    font-size: 1.3rem;
-    letter-spacing: 0.2rem;
-    font-family: monospace;
-}
-hr{
-    width:20rem;
-    background: #428bca;
-    height: 0.2rem;
-}
-
-input{
-    border: 0.2rem solid blue;
-    font-size: 1.7rem;
-    color: blue;
-    text-align: center;
-    width: 12rem;
-    border-radius:6px;
-}
-h3{
-    font-family: cursive;
-    letter-spacing: 0.2rem;
-}
-a{
-    background: #7289da;
-    font-size: 2rem;
-    font-weight: bold;
+*{
+    padding: 0;
+    margin: 0;
     text-decoration: none;
-    color: #ffffff;
-letter-spacing: 0.1rem;
-font-family: cursive;
-border: 2px solid black;
-border-radius: 4px;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    background: blue;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
 }
 
-@media(max-width:998px){
-    html{
-        font-size: 60%;
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+a.active,a:hover{
+    background: darkblue;
+    transition: -5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor:pointer ;
+display: none;
+}
+#check{
+    display: none;
+}
+
+@media (max-width: 952px){
+    label.logo{
+        font-size: 16px;
+        padding-left: 50px;
     }
-    input{
-        width: 40%;
-    }
-    h3{
-        color:white;
-        background-color: #d896ff;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: center;
-        border: 2px solid maroon;
-        border-radius: 4px;
-        font-family: cursive;
+    nav ul li a{
+        font-size: 16px;
     }
 }
 
-@media(max-width:768px){
-    html{
-        font-size: 50%;
-    }
-    input{
-        width: 40%;
-    }
-    h3{
-        color:white;
-        background-color: #d896ff;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: center;
-        border: 2px solid maroon;
-        border-radius:4px;
-        font-family: cursive;
-    }
+@media (max-width: 858px){
+.checkbtn{
+    display:block;
+}
+ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+}
+nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+}
+nav ul li a{
+    font-size: 20px;
+}
+a:hover,a.active{
+    background: none;
+    color: #0082e6;
+}
+#check:checked ~ ul{
+    left: 0;
+}
+}
+section{
+    background: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1597655601841-214a4cfe8b2c%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxzZWFyY2h8MXx8bW91bnRhaW4lMjBzY2VuZXJ5fGVufDB8fDB8fA%253D%253D%26w%3D1000%26q%3D80&imgrefurl=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmountain-scenery&tbnid=lQWOIPjSFUr3vM&vet=12ahUKEwiJ3YeTson1AhUQzaACHbBxAewQMygaegUIARCYAg..i&docid=7UbjRd-yJlv26M&w=1000&h=843&q=scenery&ved=2ahUKEwiJ3YeTson1AhUQzaACHbBxAewQMygaegUIARCYAg) no-repeat;
+background-size: cover;
+height: calc(100vh - 80px);
 }

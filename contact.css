@@ -1,76 +1,99 @@
 *{
-    margin: 0;
     padding: 0;
-}
-body{
-    background: #dfe3ee;
-}
-h1{
-    margin: 20px;
-    text-align: center;
-    font-weight: lighter;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 1px;
-    color: blue;
-}
-p{
-    margin:25px;
-    font-size: 1rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 1px;
-    text-align: justify;
-    border: 2px solid blueviolet;
-    padding: 5px;
-border-radius: 5px;
-background: #5bc0de;
-box-shadow: 6px 2px 13px 4px brown ;
-}
-span{
-    color: blueviolet;
-}
-h3{
-    text-align: center;
-    font-size:1rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: lighter;
-    color: blue;
-    letter-spacing: 1px;
-    margin-top: 80px;
-    
-}
-.whatsapp{
-    background: blue;
-}
-hr{
-    height: 2px;
-    background: blueviolet;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.email{
-    text-align: center;
-    font-size:1.3rem;
-    color: darkblue;
-    letter-spacing:1px;
-    background: white;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
-/* for desktop */
-.whatsapp_float {
-position: fixed;
-	background-color:yellowgreen;
-	color:white;
-	border-radius:50px;
-	text-align:center;
-        font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-        margin-top: 10px;
-        z-index: 100;
+nav{
+    background: blue;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
 }
 
-.whatsapp-icon {
-	margin: 16px;
-
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
 }
 
+a.active,a:hover{
+    background: darkblue;
+    transition: -5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor:pointer ;
+display: none;
+}
+#check{
+    display: none;
+}
+
+@media (max-width: 952px){
+    label.logo{
+        font-size: 16px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px){
+.checkbtn{
+    display:block;
+}
+ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+}
+nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+}
+nav ul li a{
+    font-size: 20px;
+}
+a:hover,a.active{
+    background: none;
+    color: #0082e6;
+}
+#check:checked ~ ul{
+    left: 0;
+}
+}
+section{
+    background: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1597655601841-214a4cfe8b2c%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxzZWFyY2h8MXx8bW91bnRhaW4lMjBzY2VuZXJ5fGVufDB8fDB8fA%253D%253D%26w%3D1000%26q%3D80&imgrefurl=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmountain-scenery&tbnid=lQWOIPjSFUr3vM&vet=12ahUKEwiJ3YeTson1AhUQzaACHbBxAewQMygaegUIARCYAg..i&docid=7UbjRd-yJlv26M&w=1000&h=843&q=scenery&ved=2ahUKEwiJ3YeTson1AhUQzaACHbBxAewQMygaegUIARCYAg) no-repeat;
+background-size: cover;
+height: calc(100vh - 80px);
+}
