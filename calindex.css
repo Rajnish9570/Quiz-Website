@@ -91,7 +91,7 @@ ul{
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #2c3e50;
+    background:#2c3e50 ;
     top: 80px;
     left: -100%;
     text-align: center;
@@ -107,7 +107,7 @@ nav ul li a{
 }
 a:hover,a.active{
     background: none;
-    color: #0082e6;
+    color: darkblue;
 }
 #check:checked ~ ul{
     left: 0;
