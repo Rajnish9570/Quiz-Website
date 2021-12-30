@@ -71,6 +71,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 letter-spacing: 1px;
 box-shadow: 2px 2px 5px 2px blueviolet;
  }
+  
 
 @media (max-width: 952px){
     label.logo{
