@@ -52,6 +52,16 @@ display: none;
     display: none;
 }
 
+
+section h2{
+    text-align: center;
+color: blueviolet;
+margin-top: 50px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+letter-spacing: 1px;
+text-shadow: 3px 3px 4px gray;
+}
+
 @media (max-width: 952px){
     label.logo{
         font-size: 16px;
