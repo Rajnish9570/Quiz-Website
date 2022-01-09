@@ -17,6 +17,8 @@ label.logo{
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
+    text-shadow: 5px 5px 3px yellowgreen;
+    text-decoration: underline;
 }
 nav ul{
     float: right;
@@ -52,36 +54,6 @@ display: none;
     display: none;
 }
 
-section h2{
-    text-align: center;
-color: red;
-margin-top: 50px;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-letter-spacing: 1px;
-text-shadow: 3px 3px 4px gray;
-}
-
-p{
-    margin: 15px;
-    padding: 20px;
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 1px;
-    font-size: 1.2rem;
-
-
-    color: blue;
-    box-shadow: 2px 2px 5px 1px black;
-}
-span{
-    color:white;
-    background-color:orangered;
-    font-family: sans-serif;
-    font-weight:bold;
-    padding-left: 3px;
-    padding-right: 3px;
-    border-radius: 3px;
-}
 
 @media (max-width: 952px){
     label.logo{
@@ -123,8 +95,4 @@ a:hover,a.active{
     left: 0;
 }
 }
-section{
-    background: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1597655601841-214a4cfe8b2c%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxzZWFyY2h8MXx8bW91bnRhaW4lMjBzY2VuZXJ5fGVufDB8fDB8fA%253D%253D%26w%3D1000%26q%3D80&imgrefurl=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmountain-scenery&tbnid=lQWOIPjSFUr3vM&vet=12ahUKEwiJ3YeTson1AhUQzaACHbBxAewQMygaegUIARCYAg..i&docid=7UbjRd-yJlv26M&w=1000&h=843&q=scenery&ved=2ahUKEwiJ3YeTson1AhUQzaACHbBxAewQMygaegUIARCYAg) no-repeat;
-background-size: cover;
-height: calc(100vh - 80px);
-}
+

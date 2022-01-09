@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+body{
+    background: wheat;
+}
 nav{
     background: blue;
     height: 80px;
@@ -17,6 +20,8 @@ label.logo{
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
+    text-shadow: 5px 5px 3px yellowgreen;
+    text-decoration: underline;
 }
 nav ul{
     float: right;
@@ -51,15 +56,69 @@ display: none;
 #check{
     display: none;
 }
-
-
-section h2{
+form{
+    border: 1px solid black;
+    margin:25px;
     text-align: center;
-color: blueviolet;
-margin-top: 50px;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-letter-spacing: 1px;
-text-shadow: 3px 3px 4px gray;
+    background: white;
+    padding: 15px;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border: 0 solid black;
+    box-shadow: 3px 3px 5px 1px grey;
+}
+input{
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    font-size:2rem;
+    box-shadow: 1px 1px 1px 1px grey;
+    border: none;
+    padding: 5px;
+}
+#but{
+    width: 50px;
+    height: 50px;
+    padding:5px;
+    margin: 4px;
+    border-radius: 10px;
+    background: white;
+    color: blue;
+    font-weight: bold;
+}
+#but2{
+    width: 100px;
+    height: 50px;
+    padding:5px;
+    margin: 4px;
+    border-radius: 10px;
+    background: white;
+    color: blue;
+    font-size: 15px;
+    font-weight: bold;
+}
+h5{
+    font-size: 1.5rem;
+    text-align: center;
+    color: hotpink;
+    text-shadow: 2px 2px 2px indianred;
+    letter-spacing: 1px;
+}
+div{
+text-align: justify;
+    border: 2px solid blue;
+    margin: 20px;
+    color: blue;
+    background-color: whitesmoke;
+    float: initial;
+    padding: 10px;
+
+}
+#plus,#minus,#guna,#bhag,#sq,#sr,#cu,#cr,#per{
+    color: darkblue;font-weight: 900;letter-spacing: 1.5px;
+
 }
 
 @media (max-width: 952px){
@@ -101,9 +160,4 @@ a:hover,a.active{
 #check:checked ~ ul{
     left: 0;
 }
-}
-section{
-    background: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1597655601841-214a4cfe8b2c%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxzZWFyY2h8MXx8bW91bnRhaW4lMjBzY2VuZXJ5fGVufDB8fDB8fA%253D%253D%26w%3D1000%26q%3D80&imgrefurl=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmountain-scenery&tbnid=lQWOIPjSFUr3vM&vet=12ahUKEwiJ3YeTson1AhUQzaACHbBxAewQMygaegUIARCYAg..i&docid=7UbjRd-yJlv26M&w=1000&h=843&q=scenery&ved=2ahUKEwiJ3YeTson1AhUQzaACHbBxAewQMygaegUIARCYAg) no-repeat;
-background-size: cover;
-height: calc(100vh - 80px);
 }
