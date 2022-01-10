@@ -73,13 +73,16 @@ p{
     font-size: 1.2rem;
 }
 span{
-    color: blue;
+    font-weight:500;
 }
 h2{
     font-size: 1rem;
     text-align: center;
     color: indigo;
     letter-spacing: 1px;
+    margin: 20px;
+    margin: 5px;
+
 }
 @media (max-width: 952px){
     label.logo{
