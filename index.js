@@ -48,3 +48,8 @@ function percent() {
     num3= num1/num2*100;
     document.getElementById('per').innerHTML=num3+"%";
 }
+function cgpa() {
+    num4= parseInt(document.getElementById('inputf').value);
+    num5= num4/9.5;
+    document.getElementById('cg').innerHTML=num5+" CGPA";
+}
