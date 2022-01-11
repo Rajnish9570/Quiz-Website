@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+body{
+    background: palevioletred;
+}
 nav{
     background: blue;
     height: 80px;
@@ -53,7 +56,61 @@ display: none;
 #check{
     display: none;
 }
-
+.one{
+    text-align: center;
+    background-color: blue;
+    margin: 25px;
+    padding: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    box-shadow: 2px 2px 7px 2px whitesmoke;
+}
+.two{
+    text-align: center;
+    background-color: white;
+    margin: 25px;
+    padding: 10px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    box-shadow: 2px 2px 7px 2px black;
+}
+.three{
+    text-align: center;
+    background-color: green;
+    margin: 25px;
+    padding: 10px;
+    color: yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    box-shadow: 2px 2px 7px 2px whitesmoke;
+}
+.four{
+    text-align: center;
+    background-color: red;
+    margin: 25px;
+    padding: 10px;
+    color: yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    box-shadow: 2px 2px 7px 2px whitesmoke;
+}
+p{
+    text-align: center;
+    font-size: 1.3rem;
+    color: blue;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin: 7px;
+}
+h2{
+    margin: 20px;
+}
 
 @media (max-width: 952px){
     label.logo{
